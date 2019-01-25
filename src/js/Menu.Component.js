@@ -21,7 +21,10 @@ const menuFontStyle = {
 }
 
 const iconStyle = {
-    'marginTop': '1%'
+    'marginTop': '1%',
+    'fontSize': 'large',
+    'color' : 'white',
+    'marginTop': '0%'
 }
 
 export default class MenuComponent extends React.Component{
@@ -29,16 +32,20 @@ export default class MenuComponent extends React.Component{
     render(){
         return  <div className="row" style={menuRowStyle}>
                     <div className="col-md-2" style={menuTitleStyle}>MUTUAL FUNDS</div>
-                    <div className="col-md-2" style={menuFontStyle}>Funds & Planning <span className="glyphicon glyphicon-menu-down"></span></div>
-                    <div className="col-md-2" style={menuFontStyle}>Forms & Downloads <span className="glyphicon glyphicon-menu-down"></span></div>
-                    <div className="col-md-1" style={menuFontStyle}>Self Care <span className="glyphicon glyphicon-menu-down"></span></div>
-                    <div className="col-md-1" style={menuFontStyle}>More <span className="glyphicon glyphicon-menu-down"></span></div>
-                    <div className="col-md-2" style={menuFontStyle}>Knowledge Center <span className="glyphicon glyphicon-menu-down"></span></div>
-                    <div className="col-md-1" style={menuFontStyle}>Invest with Us <span className="glyphicon glyphicon-menu-down"></span></div>
-                    <div className="col-md-1" style={iconStyle}>
-                        <span className="glyphicon glyphicon-bell"></span>
-                        <span className="glyphicon glyphicon-heart-empty"></span>
-                        <span className="glyphicon glyphicon-search"></span>
+                    <div className="col-md-6" style={menuFontStyle}>
+                        Funds & Planning <span className="glyphicon glyphicon-menu-down"></span>
+                        Forms & Downloads <span className="glyphicon glyphicon-menu-down"></span>
+                        Self Care <span className="glyphicon glyphicon-menu-down"></span>
+                        More <span className="glyphicon glyphicon-menu-down"></span>
+                        Knowledge Center <span className="glyphicon glyphicon-menu-down"></span>
+                    </div>
+                    <div className="col-md-4" style={iconStyle}>
+                        <span style={menuFontStyle}>Invest with Us</span><span className="glyphicon glyphicon-menu-down"></span>
+                        
+                            <span className="glyphicon glyphicon-bell" style={iconStyle}></span>&nbsp;
+                            <span className="glyphicon glyphicon-heart-empty" style={iconStyle}></span>&nbsp;
+                            <span className="glyphicon glyphicon-search" style={iconStyle}></span>
+                       
                     </div>
                 </div>
     }

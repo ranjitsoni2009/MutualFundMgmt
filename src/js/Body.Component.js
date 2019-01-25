@@ -11,18 +11,23 @@ const fundNavStyle = {
 }
 
 const wellDivStyle = {
-    'height': '150px'
+    'height': '150px',
+    'backgroundColor':'#ffffff'
 }
 
 const arrowLeftSliderStyle = {
     'width' : '25%',
-    'marginTop': '20%'
+    'marginTop': '20%',
+    'backgroundColor': '#003300',
+    'color': '#ffffff'
 }
 
 const arrowRightSliderStyle = {
     'width' : '25%',
     'marginTop': '20%',
-    'float':'right'
+    'float':'right',
+    'backgroundColor': '#003300',
+    'color': '#ffffff'
 }
 
 const buttonStyle = {
@@ -33,6 +38,10 @@ const buttonStyle = {
 
 const mutualFundsRorStyle = {
     'marginTop': '5%'
+}
+
+const bottomTriangleStyle = {
+    'color' : 'red'
 }
 
 export default class BodyComponent extends React.Component{
@@ -60,22 +69,30 @@ export default class BodyComponent extends React.Component{
                     </div>
                     <div className="col-md-2">
                         <div className="well" style={wellDivStyle}>
-                            <h3>Div Box</h3>
+                            <p>Aditya Birla Sunlife Credit Risk Fund</p><br/>
+                            <p>Nav</p>
+                            <p>13.527<span className="glyphicon glyphicon-triangle-bottom" style={bottomTriangleStyle}></span>-0.01(-0.06%)</p>
                         </div>
                     </div>
                     <div className="col-md-2">
                         <div className="well" style={wellDivStyle}>
-                            <h3>Div Box</h3>
+                            <p>Aditya Birla Sunlife Credit Risk Fund</p><br/>
+                            <p>Nav</p>
+                            <p>13.527<span className="glyphicon glyphicon-triangle-bottom" style={bottomTriangleStyle}></span>-0.01(-0.06%)</p>
                         </div>
                     </div>
                     <div className="col-md-2">
                         <div className="well" style={wellDivStyle}>
-                            <h3>Div Box</h3>
+                            <p>Aditya Birla Sunlife Credit Risk Fund</p><br/>
+                            <p>Nav</p>
+                            <p>13.527<span className="glyphicon glyphicon-triangle-bottom" style={bottomTriangleStyle}></span>-0.01(-0.06%)</p>
                         </div>
                     </div>
                     <div className="col-md-2">
                         <div className="well" style={wellDivStyle}>
-                            <h3>Div Box</h3>
+                            <p>Aditya Birla Sunlife Credit Risk Fund</p><br/>
+                            <p>Nav</p>
+                            <p>13.527<span className="glyphicon glyphicon-triangle-bottom" style={bottomTriangleStyle}></span>-0.01(-0.06%)</p>
                         </div>
                     </div>
                     <div className="col-md-2">
