@@ -21,7 +21,6 @@ const menuFontStyle = {
 }
 
 const iconStyle = {
-    'marginTop': '1%',
     'fontSize': 'large',
     'color' : 'white',
     'marginTop': '0%'

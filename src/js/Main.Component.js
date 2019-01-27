@@ -1,12 +1,13 @@
 import React from 'react';
 import MenuComponent from './Menu.Component';
-import BodyComponent from './Body.Component';
+import MFList from './MFList.Component';
+import MFListDetails from './MFListDetails.component';
 
 export default class MainComponent extends React.Component{
     render(){
         return  <div className="container-fluid">
                     <MenuComponent />
-                    <BodyComponent />
+                    <MFListDetails></MFListDetails>
                 </div>
     }
 }

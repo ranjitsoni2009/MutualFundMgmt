@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import MainComponent from './js/Main.Component';
 import * as serviceWorker from './serviceWorker';
+import {Router, Route, IndexRoute, BrowserHistory} from 'react-router';
+
 
 ReactDOM.render(<MainComponent />, document.getElementById('root'));
 
