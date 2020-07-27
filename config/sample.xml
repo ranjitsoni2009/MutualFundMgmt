@@ -1,0 +1,18 @@
+<dependencies>
+	<dependency>
+		<groupId>commons-digester</groupId>
+		<artifactId>commons-digester</artifactId>
+		<scope>provided</scope>
+	</dependency>
+		<!--Artifact URI: http://sv64856:8081/artifactory/jcenter-cache/commons-discovery/commons-discovery/0.2/commons-discovery-0.2.jar -->
+	<dependency>
+		<groupId>commons-discovery</groupId>
+		<artifactId>commons-discovery</artifactId>
+		<scope>provided</scope>
+	</dependency>
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.1.2</version>
+	</dependency>
+</dependencies>
